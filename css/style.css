@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Vollkorn";
+  src: url("/fonts/Vollkorn-Black.ttf") 
+  url("/fonts/Vollkorn-Regular.ttf")
+  url("/fonts/Vollkorn-Semibold.ttf")
+ }
+body{
+  background-color: #F8F5EF;
+  font-family: Vollkorn;
+  font-weight: bolder;
+  max-width: 80vw;
+  margin: auto;
+}
+
+main{
+  line-height: 29px;
+  color: #172BAE;
+}
+header{
+  background-image: url("../asset/one-piece.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  max-height: 40vh;
+  padding-top: 250px;
+}
+img{
+  max-width: 100%;
+}
+h1 {
+  padding: 100px 0px 100px 0px;
+}
+h1 ,h2{
+  font-size: 32px;
+  margin: 50px 0px 50px 0px;
+}
+.characters{
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0px 10px 0px;
+}
+.character {
+  text-align: center;
+  padding: 0px 5px 0px 5px;
+}
+.character{
+  width: 148px;
+  height: 180px;
+  contain: content;
+}
+.character p{
+  height: 200px;
+}
+h3{
+  color: black;
+  font-size: 22px;
+  height: 50px;
+  font-style: unset;
+}
+p{
+  color: black;
+  margin-bottom: 50px;
+}
+.Nakama{
+  float: right;
+  width: 50%
+}
+.luffy{
+  width: 216px;
+  float: left;
+  padding-right: 20px;
+}
+@media screen and (max-width: 750px) {
+  h1{
+    padding: initial;
+  }
+  header{
+    max-height: 50vh;
+  padding-top: 230px;
+  }
+  body{
+    max-width: initial;
+    width: 90%;
+  }
+  main p{
+    font-size: 1rem;
+    line-height: 22px;
+  }
+}
+.blue{
+  width: 2px;
+  background-color: blue;
+  height: 10px;
+}
