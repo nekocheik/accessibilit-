@@ -1,2 +1,2 @@
 # accessibilit-
-https://app.netlify.com/sites/one-piece-blog/overview
+https://one-piece-blog.netlify.com
